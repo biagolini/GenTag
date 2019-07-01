@@ -12,7 +12,7 @@
 #' @export
 escode <- function(row_under_review, emptyname = NA, columns_set = NA) {
   if (is.na(emptyname)) {
-    stop("You must inform the code for empty")
+    print(head(("You must inform the code for empty"))
   }
   if (length(columns_set) < 1) {
     stop("You must inform the set of coluns from the sampe leg")
