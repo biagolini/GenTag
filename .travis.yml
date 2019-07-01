@@ -1,5 +1,4 @@
-language: R
-cache: packages
+language: r
 
 os:
   - linux
@@ -9,6 +8,7 @@ r:
   - 3.5
   - oldrel
   - release
+
 
 after_success:
     - Rscript -e 'covr::codecov(type="all", token="9c054f8c-9476-4e2d-ab6d-f0cef953fbbf")'
