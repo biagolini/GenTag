@@ -104,7 +104,7 @@ Carlos Biagolini-Jr.  [@biagolini] c.biagolini@gmail.com
 
 
 ## Contributing
- fork <https://github.com/biagolini/GenTag/fork>)
+ fork <https://github.com/biagolini/GenTag/fork>
  
 ##  Citation information
 An article of GenTag appliance to field data is under publication process. 
