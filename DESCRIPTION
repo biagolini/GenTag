@@ -9,6 +9,7 @@ Description: Implement a coherent and flexible protocol for animal color tagging
 License: GPL (>= 2)
 URL: https://github.com/biagolini/GenTag
 Depends: R (>= 3.5.0), base
+Encoding: UTF-8
 VignetteBuilder: knitr
 RoxygenNote: 6.1.1
 Suggests: 
