@@ -8,9 +8,10 @@ Maintainer: Carlos Biagolini-Jr.<c.biagolini@gmail.com>
 Description: Implement a coherent and flexible protocol for animal color tagging. 'GenTag' provides a simple computational routine with low CPU usage to create color sequences for animal tag. First, a single-color tag sequence is created from an algorithm selected by the user, followed by verification of the combination uniqueness. Three methods to produce color tag sequences are provided. Users can modify the main function core to allow a wide range of applications. 
 License: GPL (>= 2)
 URL: https://github.com/biagolini/GenTag
-Depends: base
+Depends: R (>= 3.5.0), base
 VignetteBuilder: knitr
 RoxygenNote: 6.1.1
 Suggests: 
     knitr,
-    rmarkdown
+    rmarkdown,
+    covr

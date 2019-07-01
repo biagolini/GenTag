@@ -12,7 +12,7 @@
 #' @export
 escode <- function(row_under_review, emptyname = NA, columns_set = NA) {
   if (is.na(emptyname)) {
-    print(head("You must inform the code for empty"))
+    stop("You must inform the code for empty")
   }
   if (length(columns_set) < 1) {
     stop("You must inform the set of coluns from the sampe leg")
@@ -21,7 +21,7 @@ escode <- function(row_under_review, emptyname = NA, columns_set = NA) {
   analis <- as.matrix(row_under_review)[, columns_set]
   names(analis) <- colnames((row_under_review)[, columns_set])
   if (sum(analis == emptyname) > 2) {
-    print(head("Only 0, 1 or 2 emptys allowed per leg"))
+    stop("Only 0, 1 or 2 emptys allowed per leg")
   }
   if ((length(analis) == 1) | (sum(analis == emptyname) == 0) | (sum(analis ==
                                                                      emptyname) == length(analis))) {

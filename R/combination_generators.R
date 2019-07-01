@@ -78,7 +78,7 @@ For further possibilities see: arguments emptyused and emptyname in help(genseq)
             tdob <- length(usedcombinations[, 1]) - length(UniqComb[,
                                                                     1])
             if (tdob > 0) {
-                message(paste("Your pre-used data has non-exclusive combinations. The difference between total number of pre used combinations and exclusive is",tdob))
+                stop(paste("Your pre-used data has non-exclusive combinations. The difference between total number of pre used combinations and exclusive is",tdob))
             }
         }
     }
