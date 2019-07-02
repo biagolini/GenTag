@@ -7,6 +7,9 @@
 [![CRAN_Status_Badge](http://www.r-pkg.org/badges/version/GenTag)](https://cran.r-project.org/package=GenTag)
 [![Downloads](https://cranlogs.r-pkg.org/badges/GenTag)](https://CRAN.R-project.org/package=GenTag)
 [![Total Downloads](https://cranlogs.r-pkg.org/badges/grand-total/GenTag?color=orange)](https://CRAN.R-project.org/package=GenTag)
+[![DOI](https://zenodo.org/badge/194592157.svg)](https://zenodo.org/badge/latestdoi/194592157)
+
+
 [![Travis build status](https://travis-ci.org/biagolini/GenTag.svg?branch=master)](https://travis-ci.org/biagolini/GenTag)
 [![AppVeyor build status](https://ci.appveyor.com/api/projects/status/github/biagolini/GenTag?branch=master&svg=true)](https://ci.appveyor.com/project/biagolini/GenTag)
 [![Codecov test coverage](https://codecov.io/gh/biagolini/GenTag/branch/master/graph/badge.svg)](https://codecov.io/gh/biagolini/GenTag?branch=master)

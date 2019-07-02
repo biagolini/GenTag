@@ -1,7 +1,7 @@
 Package: GenTag
 Type: Package
 Title: Generate Color Tag Sequences
-Version: 1.0
+Version: 1.01
 Date: 2019-06-21
 Author: Carlos Biagolini-Jr.
 Maintainer: Carlos Biagolini-Jr.<c.biagolini@gmail.com>
