@@ -17,32 +17,25 @@
 > A computational tool to create sequences of animal color tags
 
 ## Introducing to the problem
-
 This is a package which proposes an improved protocol for animal color tagging. Since the early 1980s, several studies have suggested a negative influence of color tags on animal social behavior. However, methodological approaches to deal with this issue are lacking.  The GenTag package was designed to produce sequences of color tag combinations. The package run on R base, without cross-package dependence. The computational routine is simple, implying low CPU usage. Despite the simplicity of the routine itself, the application of this method is exceptionally broad, as it can be applied in any project that uses visual identification of animals based on color marking, across a wide range of taxa, including birds, mammals, and fishes. 
 
 ## How GenTag deal with this issue
-
 First, a single-color tag sequence is created from an algorithm selected by the user, followed by verification of the combination uniqueness. Three methods to produce color tag sequences are provided. Users can modify the main function core to allow a wide range of applications. 
 
 ## Algorithm to create color sequences 
-
 Three algorithms are provide: 
  All equal: creates combinations of tags in which all colors have the same probability of being sampled. 
  Variable frequency: creates combinations of tags using different probabilities for each color, where the probabilities are defined by the user. 
  Life expectancy: this algorithm creates a restriction based upon color combinations, so that all colors will be represented in similar frequencies in the natural population under study. 
 
 ## Installing the release version of the `GenTag` R package
-
 You can install `GenTag` from CRAN with:
-
 ``` r
 install.packages("GenTag")
 ```
 
 ### Installing the development version of the `GenTag` R package
-
 You can install the development version from GitHub with:
-
 ``` r
 devtools::install_github("biagolini/GenTag")
 ```
@@ -60,7 +53,6 @@ tcol<-c("Black","Blue","Brown","Gray","Green","Pink","Purple","Red","White","Yel
 # Generate sequences by All equal algorithm 
 genseq(ncombinations=30, ntag=4,colorsname=tcol)
 ```
-
 For the Variable frequency method it is also necessary to input the proportions of each color available.
 ``` r
 # Create an object to hold the ratio for sampling 
@@ -100,8 +92,10 @@ scy(usedcombinations=pre_used[,1:4],yearusedcombinations=pre_used[,5], hide_colo
 # Estimates remaining color tags in the field
 erc(usedcombinations=pre_used[,1:4],yearusedcombinations=pre_used[,5],yearsurvival=0.8, hide_color="EMPTY")
 ```
-Carlos Biagolini-Jr.  [@biagolini] c.biagolini@gmail.com
-
+## Author information
+Carlos Biagolini-Jr.  
+email: <c.biagolini@gmail.com>  
+CV: <http://lattes.cnpq.br/4086237188108947>  
 
 ## Contributing
  fork <https://github.com/biagolini/GenTag/fork>
